@@ -101,7 +101,6 @@ function displayCountry(selectedOption, searchQuery) {
               
              function displayError(error) {
                 const h1El = document.createElement('h1');
-                console.log(error)
                 if(error === 404){ 
                      h1El.innerText = 'Sidan kunde inte hittas. Försök igen!';
                  }
